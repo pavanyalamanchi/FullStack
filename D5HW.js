@@ -154,9 +154,11 @@ Write a function "giveMeRandom" which accepts a number n and returns an array co
 */
 console.log('------------Ex-10------------')
 function giveMeRandom(n){
-
+    for(let i=0;i<n;i++){
+        console.log(Math.floor(Math.random()*11))
+    }
 }
-
+giveMeRandom(10)
 /* WHEN YOU ARE FINISHED
 Commit and push the code to your personal GitHub repository and share the link to your commit in Eduflow.
 */
